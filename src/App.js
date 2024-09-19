@@ -1,9 +1,13 @@
 import './App.css';
+import { RouterProvider } from 'react-router-dom';
+import RouterData from './routes';
+import Navbar from './components/Navbar';
 
 function App() {
+  const route = RouterData();
   return (
     <>
-      <h4>Born To Achieve Great Things!</h4>
+      <RouterProvider router={route} />
     </>
   );
 }

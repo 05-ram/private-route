@@ -4,3 +4,14 @@
   box-sizing: border-box;
   font-synthesis: none;
 }
+
+.side-bar {
+  height: calc(100vh - 56px);
+  background-color: aquamarine;
+  width: 330px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+}
